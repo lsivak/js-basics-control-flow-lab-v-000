@@ -21,10 +21,10 @@ function switchOnCharmFromTip(tip) {
     tip >= 10
     response = 'Thank you so much.';
     case 'not as generous':
-    !tip >= 10
+    tip <= 10
     response = 'Thank you.';
     case 'thanks for everything':
-    !tip >= 5
+    tip <= 5
     response = 'Bye.'
     return response
   }
