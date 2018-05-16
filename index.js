@@ -9,4 +9,5 @@ function scuberGreetingForFeet(someNumber) {
   return result;
 }
 
-const ternaryCheckCity(NYC) ? 'Ok, sounds good.' : 'No go.'
+let city = NYC
+const ternaryCheckCity(city) ? 'Ok, sounds good.' : 'No go.'
