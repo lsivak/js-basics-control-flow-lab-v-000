@@ -8,3 +8,5 @@ function scuberGreetingForFeet(someNumber) {
     result = 'No can do.'
   return result;
 }
+
+function ternaryCheckCity(NYC) ? 'Ok, sounds good.' : 'No go.'
