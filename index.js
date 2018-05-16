@@ -20,12 +20,15 @@ function switchOnCharmFromTip(tip) {
     case 'generous':
     tip >= 10
     response = 'Thank you so much.';
+    break
     case 'not as generous':
     tip <= 10
     response = 'Thank you.';
+    break
     case 'thanks for everything':
     tip <= 5
     response = 'Bye.'
     return response
+    break
   }
 }
