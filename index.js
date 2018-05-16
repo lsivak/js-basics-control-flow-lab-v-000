@@ -11,4 +11,4 @@ function scuberGreetingForFeet(someNumber) {
 
 let city = NYC;
 
-const ternaryCheckCity(city) = city === NYC ? 'Ok, sounds good.' : 'No go.'
+function ternaryCheckCity(city) = city === NYC ? 'Ok, sounds good.' : 'No go.'
